@@ -1,0 +1,151 @@
+.blogs {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 60px;
+}
+
+.main-blog {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.main-blog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.main-blog-content {
+  display: flex;
+  gap: 10px;
+}
+
+.main-blog-content h2 {
+  flex: 2;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 132%;
+  letter-spacing: 0%;
+}
+.main-blog-content h2 {
+  flex: 2;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 132%;
+  letter-spacing: 0%;
+}
+.main-blog-conten span {
+  flex: 1;
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 194%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.main-blog p {
+  font-family: Josefin Sans;
+font-weight: 400;
+font-size: 16.4px;
+line-height: 24px;
+letter-spacing: 0%;
+text-transform: capitalize;
+color: var(--paragraph-color);
+margin-top: 10px;
+}
+.other-blogs {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.blog-item div {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.blog-item h3 {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 132%;
+  letter-spacing: 0%;
+}
+.blog-item p {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 12.4px;
+  line-height: 123%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: var(--paragraph-color);
+}
+.blog-item span {
+  font-family: Open Sans;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 194%;
+  letter-spacing: 0%;
+}
+
+.blog-item-image {
+  width: 198.92271423339844px;
+  height: 129px;
+  border-radius: 6px;
+}
+
+
+
+@media (max-width: 768px) {
+  .blogs {
+    padding: unset;
+    gap: 20px;
+    flex-direction: column;
+}
+.main-blog-content {
+  gap: 5px;
+  flex-direction: column-reverse;
+}
+.main-blog-content h2 {
+  flex: 2;
+  font-size: 22px;
+  line-height: 132%;
+}
+.main-blog {
+  padding: unset;
+}
+.other-blogs {
+  margin-left: unset;
+}
+.blog-item {
+  padding: unset;
+  border-radius: unset;
+  flex-direction: row-reverse;
+}
+.blog-item-image {
+  width: 145.92271423339844px;
+  height: 94px;
+  border-radius: 6px;
+}
+.blog-item h3 {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132%;
+  letter-spacing: 0%;  
+}
+}

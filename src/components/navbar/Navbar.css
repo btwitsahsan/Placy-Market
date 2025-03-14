@@ -1,0 +1,135 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  /* padding: 10px 70px !important; */
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+nav ul li {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.authButtons button {
+  margin-left: 10px;
+  padding: 14px 18px !important;
+  cursor: pointer;
+}
+
+.login {
+  background-color: transparent;
+  color: var(--primary-color);
+  border: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+    position: relative;
+  }
+
+  nav ul,
+  .authButtons {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: all 0.3s;
+  }
+  .crossIcon {
+    float: right;
+  }
+  .crossIcon span {
+    font-size: 20px;
+    padding: 6px;
+    /* background-color/: gray; */
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 75%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* When the mobile menu is visible */
+.mobile-menu.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+  .mobile-logo {
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 24px !important;
+    line-height: 39px !important;
+    letter-spacing: 0%;
+    vertical-align: middle;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .mobile-menu ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .mobile-authButtons {
+    margin-top: 15px;
+    display: flex;
+  }
+
+  .mobile-authButtons button {
+    display: block;
+    padding: 14px 18px !important;
+    margin: auto;
+  }
+}
+/* Mobile Styles */
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: none !important;
+  }
+}
