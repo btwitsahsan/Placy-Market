@@ -94,12 +94,17 @@
 .workSection{
   display: flex;
   flex-direction: column;
-  gap: 00px;
+  gap: 100px;
 }
 
 @media (max-width: 768px) {
   .steps-container {
     flex-direction: column;
+  }
+  .workSection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
   
   .steps-section {
