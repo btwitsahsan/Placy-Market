@@ -4,7 +4,7 @@ import { FaInstagram, FaFacebookF, FaLinkedinIn, FaMapMarkerAlt, FaPhoneAlt, FaE
 import footerBg from '../../assets/footerBg.png'
 const Footer = () => {
     return (
-        <footer className="footer" style={{backgroundImage: `url(${footerBg})`}}>
+        <footer className="footer" style={{backgroundImage: `url(${footerBg})` }}>
             <div className="footer-container">
                 <div className="footer-section about">
                 <div className="logo" style={{fontSize: 'unset'}}><h3>Placy <span>Market</span></h3></div>
