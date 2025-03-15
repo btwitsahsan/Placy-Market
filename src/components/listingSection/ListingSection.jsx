@@ -3,9 +3,9 @@ import "./ListingSection.css";
 import image1 from "../../assets/listImage1.png";
 import image2 from "../../assets/listImage2.png";
 import image3 from "../../assets/listImage3.png";
-import featureImage1 from "../../assets/featureImage1.png";
-import featureImage2 from "../../assets/featureImage2.png";
-import featureImage3 from "../../assets/featureImage3.png";
+import featureImage1 from "../../assets/featureImage1.svg";
+import featureImage2 from "../../assets/featureImage2.svg";
+import featureImage3 from "../../assets/featureImage3.svg";
 
 const listings = [
   {

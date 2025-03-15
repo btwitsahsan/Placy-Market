@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutUs.css'
-import aboutSecImg from '../../assets/aboutSection.png'
+import aboutSecImg from '../../assets/aboutSection.svg'
 
 const AboutUs = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './HeroSection.css'
-import heroSecImg from '../../assets/heroSection.png' 
+import heroSecImg from '../../assets/heroSection.svg' 
 import { FaCalendarAlt } from 'react-icons/fa'
 
 const HeroSection = () => {

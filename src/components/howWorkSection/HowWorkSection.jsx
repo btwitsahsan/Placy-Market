@@ -1,9 +1,9 @@
 import React from "react";
 import "./HowWorkSection.css";
-import step1Image from "../../assets/step1Image.png";
-import step2Image from "../../assets/step2Image.png";
-import step3Image from "../../assets/step3Image.png";
-import workSecImg from "../../assets/workSecImg.png";
+import step1Image from "../../assets/step1Image.svg";
+import step2Image from "../../assets/step2Image.svg";
+import step3Image from "../../assets/step3Image.svg";
+import workSecImg from "../../assets/workSecImg.svg";
 const HowWorkSection = () => {
   return (
     <section className="workSection">
